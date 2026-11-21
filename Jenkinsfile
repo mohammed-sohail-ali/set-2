@@ -18,7 +18,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    if (fileExists('index.html') && fileExists('styles.css') && fileExists('validate.js')) {
+                    if (fileExists('index.html') && fileExists('style.css') && fileExists('validate.js')) {
                         echo 'All required files found - test passed'
                     } else {
                         error 'A required file is missing'
