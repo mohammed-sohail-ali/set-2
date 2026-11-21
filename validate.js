@@ -4,7 +4,7 @@ function validateForm() {
   var message = document.getElementById("message").value;
 
   if (name == "") {
-    alert("Please enter your name");
+    alert("Bitch enter your name");
     return false;
   }
   if (email.indexOf("@") == -1) {
